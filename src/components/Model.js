@@ -45,11 +45,11 @@ const Model = ({ onClose, result }) => {
         </div>
         {status !== 0 && (
           <div>
-            <Link to={`/treatments/${status}`}>
+            {/* <Link to={`/treatments/${status}`}>
               <h1 className="text-zinc-100 text-xs  font-serif mt-2">
                 Medical suggestions and treatments
               </h1>
-            </Link>
+            </Link> */}
           </div>
         )}
         <div>

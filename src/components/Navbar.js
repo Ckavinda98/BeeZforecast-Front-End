@@ -40,11 +40,11 @@ const Navbar = () => {
                 Predict
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/" onClick={handleClose}>
                 Statistic
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="hidden md:flex pr-4">

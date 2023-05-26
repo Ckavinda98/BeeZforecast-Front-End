@@ -103,15 +103,15 @@ const PredictForm = () => {
               <div className="text-center">
                 <h1 className="text-1xl md:text-4xl font-bold ">Predict</h1>
               </div>
-              <div className="flex flex-col gap-4">
-                <div className="relative">
+              <div className="flex flex-col gap-4 justify-between">
+                <div className="flex-end">
                   <label htmlFor="state" className="text-base font-medium">
                     Please Select the State :
                   </label>
                   <select
                     id="state"
                     name="state"
-                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-3"
+                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-44"
                     required
                     onChange={(e) => setStates(e.target.value)}
                   >
@@ -162,15 +162,7 @@ const PredictForm = () => {
                     <option value="44">Wisconsin</option>
                     <option value="45">Wyoming</option>
                   </select>
-                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center">
-                    <svg
-                      className="h-4 w-4 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 12l-5-5 1.41-1.41L10 9.17l3.59-3.58L15 7l-5 5z" />
-                    </svg>
-                  </div>
+                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center"></div>
                 </div>
                 <div className="relative">
                   <label htmlFor="state" className="text-base font-medium">
@@ -179,7 +171,7 @@ const PredictForm = () => {
                   <select
                     id="state"
                     name="state"
-                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-3"
+                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-24"
                     required
                     onChange={(e) => setVarroam(e.target.value)}
                   >
@@ -187,15 +179,7 @@ const PredictForm = () => {
                     <option value="1">Yes</option>
                     <option value="0">No</option>
                   </select>
-                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center">
-                    <svg
-                      className="h-4 w-4 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 12l-5-5 1.41-1.41L10 9.17l3.59-3.58L15 7l-5 5z" />
-                    </svg>
-                  </div>
+                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center"></div>
                 </div>
                 <div className="relative">
                   <label htmlFor="state" className="text-base font-medium">
@@ -204,7 +188,7 @@ const PredictForm = () => {
                   <select
                     id="state"
                     name="state"
-                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-3"
+                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-16"
                     required
                     onChange={(e) => setParasites(e.target.value)}
                   >
@@ -212,15 +196,7 @@ const PredictForm = () => {
                     <option value="1">Yes</option>
                     <option value="0">No</option>
                   </select>
-                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center">
-                    <svg
-                      className="h-4 w-4 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 12l-5-5 1.41-1.41L10 9.17l3.59-3.58L15 7l-5 5z" />
-                    </svg>
-                  </div>
+                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center"></div>
                 </div>
               </div>
               <div className="flex flex-col gap-4">
@@ -231,7 +207,7 @@ const PredictForm = () => {
                   <select
                     id="state"
                     name="state"
-                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-3"
+                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-32"
                     required
                     onChange={(e) => setDiseases(e.target.value)}
                   >
@@ -239,15 +215,7 @@ const PredictForm = () => {
                     <option value="1">Yes</option>
                     <option value="0">No</option>
                   </select>
-                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center">
-                    <svg
-                      className="h-4 w-4 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 12l-5-5 1.41-1.41L10 9.17l3.59-3.58L15 7l-5 5z" />
-                    </svg>
-                  </div>
+                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center"></div>
                 </div>
                 <div className="relative">
                   <label htmlFor="state" className="text-base font-medium">
@@ -256,7 +224,7 @@ const PredictForm = () => {
                   <select
                     id="state"
                     name="state"
-                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-3 items-end justify-end"
+                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-32 items-end justify-end"
                     required
                     onChange={(e) => setQueen(e.target.value)}
                   >
@@ -264,15 +232,7 @@ const PredictForm = () => {
                     <option value="1">Yes</option>
                     <option value="0">No</option>
                   </select>
-                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center">
-                    <svg
-                      className="h-4 w-4 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 12l-5-5 1.41-1.41L10 9.17l3.59-3.58L15 7l-5 5z" />
-                    </svg>
-                  </div>
+                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center"></div>
                 </div>
                 <div className="relative">
                   <label htmlFor="state" className="text-base font-medium">
@@ -289,15 +249,7 @@ const PredictForm = () => {
                     <option value="1">Yes</option>
                     <option value="0">No</option>
                   </select>
-                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center">
-                    <svg
-                      className="h-4 w-4 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 12l-5-5 1.41-1.41L10 9.17l3.59-3.58L15 7l-5 5z" />
-                    </svg>
-                  </div>
+                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center"></div>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -308,7 +260,7 @@ const PredictForm = () => {
                   <select
                     id="state"
                     name="state"
-                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-3"
+                    className="rounded-md border border-gray-400 p-1 pl-4 pr-2 appearance-none ml-40"
                     required
                     onChange={(e) => setPesticides(e.target.value)}
                   >
@@ -316,15 +268,7 @@ const PredictForm = () => {
                     <option value="1">Yes</option>
                     <option value="0">No</option>
                   </select>
-                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center">
-                    <svg
-                      className="h-4 w-4 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 12l-5-5 1.41-1.41L10 9.17l3.59-3.58L15 7l-5 5z" />
-                    </svg>
-                  </div>
+                  <div className="pointer-events-none absolute inset-y-0 left-0 pl-2 flex items-center"></div>
                 </div>
               </div>
               <button className="py-1 px-6 bg-gray-600 text-white rounded-md">
